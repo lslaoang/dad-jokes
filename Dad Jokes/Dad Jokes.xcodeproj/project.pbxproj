@@ -11,6 +11,9 @@
 		CC9E60BE2C1982FA00B3E5F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9E60BD2C1982FA00B3E5F8 /* ContentView.swift */; };
 		CC9E60C02C1982FC00B3E5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9E60BF2C1982FC00B3E5F8 /* Assets.xcassets */; };
 		CC9E60C32C1982FC00B3E5F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9E60C22C1982FC00B3E5F8 /* Preview Assets.xcassets */; };
+		CC9E60CF2C198AC100B3E5F8 /* JokeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9E60CE2C198AC000B3E5F8 /* JokeFetcher.swift */; };
+		CC9E60D42C19985300B3E5F8 /* jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = CC9E60D22C19978300B3E5F8 /* jokes.json */; };
+		CC9E60D62C1999F200B3E5F8 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9E60D52C1999F200B3E5F8 /* LaunchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CC9E60BD2C1982FA00B3E5F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC9E60BF2C1982FC00B3E5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9E60C22C1982FC00B3E5F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC9E60CE2C198AC000B3E5F8 /* JokeFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFetcher.swift; sourceTree = "<group>"; };
+		CC9E60D22C19978300B3E5F8 /* jokes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jokes.json; sourceTree = "<group>"; };
+		CC9E60D52C1999F200B3E5F8 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,13 @@
 		CC9E60BA2C1982FA00B3E5F8 /* Dad Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				CC9E60D22C19978300B3E5F8 /* jokes.json */,
+				CC9E60CE2C198AC000B3E5F8 /* JokeFetcher.swift */,
 				CC9E60BB2C1982FA00B3E5F8 /* Dad_JokesApp.swift */,
 				CC9E60BD2C1982FA00B3E5F8 /* ContentView.swift */,
 				CC9E60BF2C1982FC00B3E5F8 /* Assets.xcassets */,
 				CC9E60C12C1982FC00B3E5F8 /* Preview Content */,
+				CC9E60D52C1999F200B3E5F8 /* LaunchScreen.swift */,
 			);
 			path = "Dad Jokes";
 			sourceTree = "<group>";
@@ -83,6 +92,8 @@
 			dependencies = (
 			);
 			name = "Dad Jokes";
+			packageProductDependencies = (
+			);
 			productName = "Dad Jokes";
 			productReference = CC9E60B82C1982FA00B3E5F8 /* Dad Jokes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,8 @@
 				Base,
 			);
 			mainGroup = CC9E60AF2C1982FA00B3E5F8;
+			packageReferences = (
+			);
 			productRefGroup = CC9E60B92C1982FA00B3E5F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9E60D42C19985300B3E5F8 /* jokes.json in Resources */,
 				CC9E60C32C1982FC00B3E5F8 /* Preview Assets.xcassets in Resources */,
 				CC9E60C02C1982FC00B3E5F8 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9E60D62C1999F200B3E5F8 /* LaunchScreen.swift in Sources */,
+				CC9E60CF2C198AC100B3E5F8 /* JokeFetcher.swift in Sources */,
 				CC9E60BE2C1982FA00B3E5F8 /* ContentView.swift in Sources */,
 				CC9E60BC2C1982FA00B3E5F8 /* Dad_JokesApp.swift in Sources */,
 			);
@@ -271,7 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dad Jokes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Dad\\ Jokes/jokes.json Dad\\ Jokes/Preview\\ Content";
 				DEVELOPMENT_TEAM = 59DTKZ28U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Dad Jokes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Dad\\ Jokes/jokes.json Dad\\ Jokes/Preview\\ Content";
 				DEVELOPMENT_TEAM = 59DTKZ28U3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
